@@ -1,7 +1,5 @@
 const categories = [
-    { name: 'F1', image: '../public/f1.webp', description: 'El campeonato de automovilismo más prestigioso del mundo, con coches de tecnología avanzada que compiten en circuitos internacionales.', link: '' },
-    { name: 'F2', image: '../public/f2.jpg', description: 'Segunda categoría más alta en el automovilismo de monoplazas, sirve como plataforma para pilotos jóvenes que aspiran a llegar a la F1.', link: '' },
-    { name: 'F3', image: '../public/f3.jpg', description: 'Categoría de entrada al automovilismo de monoplazas, donde los pilotos novatos desarrollan sus habilidades antes de subir a categorías superiores como F2 y F1.', link: '' },
+    { name: 'F1', image: '../public/f1.webp', description: 'El campeonato de automovilismo más prestigioso del mundo, con coches de tecnología avanzada que compiten en circuitos internacionales.', link: '../pages/f1.html' },
     { name: 'IndyCar', image: '../public/indycar.jpg', description: 'Campeonato estadounidense de monoplazas, conocido por sus icónicas carreras en óvalos, como las 500 Millas de Indianápolis, con coches de alta velocidad.', link: '' },
     { name: 'SuperFormula', image: '../public/superformula.jpg', description: 'La categoría más importante de monoplazas en Japón, similar a la F1, pero con coches específicos para esta serie y con un fuerte enfoque en la competencia interna japonesa.', link: '' }
   ];
@@ -26,9 +24,13 @@ const categories = [
     const desc = document.createElement('p');
     desc.className = 'card-desc';
     desc.textContent = cat.description;
+    const more = document.createElement('h3');
+    more.className = 'card-more';
+    more.textContent = 'Saber más'
 
     content.appendChild(title);
     content.appendChild(desc);
+    content.appendChild(more);
     cardLink.appendChild(img);
     cardLink.appendChild(content);
     container.appendChild(cardLink);
