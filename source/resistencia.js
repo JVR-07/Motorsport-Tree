@@ -1,5 +1,6 @@
 const categories = [
-    { name: 'MotoGP', image: '../public/motogp.jpeg', description: ' El campeonato mundial de motociclismo más prestigioso, con motos de 1,000cc de tecnología avanzada, donde los mejores pilotos del mundo compiten en circuitos internacionales.', link: '../pages/motogp.html' }
+    { name: 'Hypercar', image: '../public/hypercar.jpeg', description: 'Es la categoría principal del Campeonato Mundial de Resistencia (WEC), con prototipos de última generación, ya sean desarrollos propios (LMH) o basados en plataformas comunes (LMDh). Compiten marcas como Ferrari, Toyota, Porsche y Cadillac en carreras de hasta 24 horas.', link: '../pages/hypercar.html' },
+    { name: 'GT3', image: '../public/gt3.webp', description: 'Categoría basada en autos deportivos de calle modificados para competición. Adoptada por el WEC en 2024, reemplazó a los antiguos GTE. Reúne gran variedad de marcas como Aston Martin, Porsche, Ferrari y Lamborghini, equilibradas por un sistema de Balance of Performance.', link: '../pages/gt3.html' }
   ];
 
   const container = document.getElementById('card-container');
@@ -22,7 +23,6 @@ const categories = [
     const desc = document.createElement('p');
     desc.className = 'card-desc';
     desc.textContent = cat.description;
-
     const more = document.createElement('h3');
     more.className = 'card-more';
     more.textContent = 'Saber más'

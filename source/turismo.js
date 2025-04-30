@@ -1,5 +1,6 @@
 const categories = [
-    { name: 'MotoGP', image: '../public/motogp.jpeg', description: ' El campeonato mundial de motociclismo más prestigioso, con motos de 1,000cc de tecnología avanzada, donde los mejores pilotos del mundo compiten en circuitos internacionales.', link: '../pages/motogp.html' }
+    { name: 'Nascar Cup Series', image: '../public/nascar.webp', description: 'La NASCAR Cup Series es la categoría reina del automovilismo de stock cars en Estados Unidos. Se caracteriza por sus autos de carrocería cerrada, motores V8 atmosféricos y competencias en óvalos, circuitos cortos y algunas pistas ruteras. Es famosa por su formato por etapas, los playoffs y una cultura automovilística profundamente arraigada en el sur de EE.UU.', link: '../pages/nascar.html' },
+    { name: 'V8 Supercars', image: '../public/supercars.jpg', description: 'El Supercars Championship, conocido popularmente como V8 Supercars, es la principal categoría de turismos en Australia. Sus autos, basados en sedanes como el Ford Mustang y Chevrolet Camaro, cuentan con motores V8 potentes y compiten en circuitos técnicos y urbanos. Destaca por su paridad técnica, maniobras agresivas y carreras emocionantes como la legendaria Bathurst 1000.', link: '../pages/supercars.html' }
   ];
 
   const container = document.getElementById('card-container');
@@ -22,7 +23,6 @@ const categories = [
     const desc = document.createElement('p');
     desc.className = 'card-desc';
     desc.textContent = cat.description;
-
     const more = document.createElement('h3');
     more.className = 'card-more';
     more.textContent = 'Saber más'

@@ -38,3 +38,30 @@ ul li { margin-bottom: 0.5rem; }
 
 /* Pie de página */
 footer { text-align: center; padding: 1rem 0; font-size: 0.875rem; color: #666; }
+
+/* Boton moderno*/
+.button-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente (si quieres) */
+  padding: 40px 0;         /* Espaciado arriba y abajo */
+  width: 100%;
+}
+
+.modern-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.modern-button:hover {
+  background: linear-gradient(135deg, #2a5298, #1e3c72);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
