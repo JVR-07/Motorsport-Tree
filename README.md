@@ -1,4 +1,4 @@
-![ITT Wallpaper]([/Resource/wallpaper_itt.png](https://github.com/JVR-07/College-Projects/blob/main/Resource/wallpaper_itt.png))
+![ITT Wallpaper](https://github.com/JVR-07/College-Projects/blob/main/Resource/wallpaper_itt.png)
 # Motorsport-Tree
 
 Este proyecto corresponde al curso "Redes de Computadoras" del Instituto Tecnológico de Tijuana y tiene como finalidad crear una aplicación web sencilla y montarla en un servidor web (en este caso Apache) de forma local, que se ramifique en al menos 15 páginas web locales y 5 páginas web externas. En este caso, realicé mi practica inspirándome en el deporte de motor(Motorsport).  
