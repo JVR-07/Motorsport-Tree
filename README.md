@@ -1,9 +1,10 @@
 # Motorsport-Tree
 
-Este proyecto corresponde al curso "Redes de Computadoras" del Instituto Tecnológico de Tijuana y tiene como finalidad crear una aplicación web sencilla y montarla en un servidor web (en este caso Apache) de forma local, que se ramifique en al menos 15 páginas web locales y 5 páginas web externas. En este caso, realicé mi practica inspirándome en el deporte de motor(Motorsport).  
+Este proyecto corresponde al curso "Redes de Computadoras" del Instituto Tecnológico de Tijuana; tiene como finalidad crear una aplicación sencilla y montarla en un servidor web (en este caso Apache) de forma local. Uno de los requisitos principales fue que se ramifique en al menos 15 páginas web locales y 5 páginas web externas.  
+En este caso, realicé mi práctica inspirándome en el deporte de motor(Motorsport).  
 
 ## Ramificación de las categorias
-En mi index, despliego 5 tipos o ramas del motorsport. Dentro de cada rama aparecen tarjetas correspondientes a las categorias más importanes de cada tipo, y al entrar en estas tarjetas se despliega una página completa con información sobre esa categoría así como un botón al final que te lleva a la página web oficial de la categoría.
+En mi index, despliego 5 tipos o ramas del motorsport. Dentro de cada rama aparecen tarjetas correspondientes a las categorias más relevantes de cada tipo. Al entrar en estas tarjetas se despliega una página completa con información sobre esa categoría así como un botón al final que te lleva a la página web oficial de la categoría.
 Dando así la siguiente ramificación:
 
 ```
