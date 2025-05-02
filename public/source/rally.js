@@ -1,7 +1,7 @@
 const categories = [
-    { name: 'WRC', image: '../public/wrc.jpeg', description: 'La máxima categoría del rally mundial, con autos híbridos de alta potencia y tecnología de punta, compitiendo en etapas alrededor del mundo.', link: '../pages/wrc.html' },
-    { name: 'Grupo B', image: '../public/grupob.jpg', description: 'Fue una categoría histórica en el rally, que existió entre 1982 y 1986. Fue famosa por los autos extremadamente poderosos y rápidos, pero también por los accidentes fatales que ocurrieron debido a la naturaleza peligrosa de los vehículos.', link: '../pages/grupob.html' },
-    { name: 'Baja 1000', image: '../public/baja1000.jpg', description: 'La Baja 1000 es una carrera de resistencia off-road de más de 1,000 millas en Baja California, México, conocida por sus terrenos extremos y desafío para vehículos y pilotos.', link: '../pages/baja1000.html' }
+    { name: 'WRC', image: '../imgs/wrc.jpeg', description: 'La máxima categoría del rally mundial, con autos híbridos de alta potencia y tecnología de punta, compitiendo en etapas alrededor del mundo.', link: '../pages/wrc.html' },
+    { name: 'Grupo B', image: '../imgs/grupob.jpg', description: 'Fue una categoría histórica en el rally, que existió entre 1982 y 1986. Fue famosa por los autos extremadamente poderosos y rápidos, pero también por los accidentes fatales que ocurrieron debido a la naturaleza peligrosa de los vehículos.', link: '../pages/grupob.html' },
+    { name: 'Baja 1000', image: '../imgs/baja1000.jpg', description: 'La Baja 1000 es una carrera de resistencia off-road de más de 1,000 millas en Baja California, México, conocida por sus terrenos extremos y desafío para vehículos y pilotos.', link: '../pages/baja1000.html' }
   ];
 
   const container = document.getElementById('card-container');

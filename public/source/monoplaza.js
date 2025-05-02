@@ -1,7 +1,7 @@
 const categories = [
-    { name: 'F1', image: '../public/f1.webp', description: 'El campeonato de automovilismo más prestigioso del mundo, con coches de tecnología avanzada que compiten en circuitos internacionales.', link: '../pages/f1.html' },
-    { name: 'IndyCar', image: '../public/indycar.jpg', description: 'Campeonato estadounidense de monoplazas, conocido por sus icónicas carreras en óvalos, como las 500 Millas de Indianápolis, con coches de alta velocidad.', link: '../pages/indycar.html' },
-    { name: 'SuperFormula', image: '../public/superformula.jpg', description: 'La categoría más importante de monoplazas en Japón, similar a la F1, pero con coches específicos para esta serie y con un fuerte enfoque en la competencia interna japonesa.', link: '../pages/superformula.html' }
+    { name: 'F1', image: '../imgs/f1.webp', description: 'El campeonato de automovilismo más prestigioso del mundo, con coches de tecnología avanzada que compiten en circuitos internacionales.', link: '../pages/f1.html' },
+    { name: 'IndyCar', image: '../imgs/indycar.jpg', description: 'Campeonato estadounidense de monoplazas, conocido por sus icónicas carreras en óvalos, como las 500 Millas de Indianápolis, con coches de alta velocidad.', link: '../pages/indycar.html' },
+    { name: 'SuperFormula', image: '../imgs/superformula.jpg', description: 'La categoría más importante de monoplazas en Japón, similar a la F1, pero con coches específicos para esta serie y con un fuerte enfoque en la competencia interna japonesa.', link: '../pages/superformula.html' }
   ];
 
   const container = document.getElementById('card-container');

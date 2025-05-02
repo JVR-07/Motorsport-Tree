@@ -1,5 +1,5 @@
 const categories = [
-    { name: 'MotoGP', image: '../public/motogp.jpeg', description: ' El campeonato mundial de motociclismo más prestigioso, con motos de 1,000cc de tecnología avanzada, donde los mejores pilotos del mundo compiten en circuitos internacionales.', link: '../pages/motogp.html' }
+    { name: 'MotoGP', image: '../imgs/motogp.jpeg', description: ' El campeonato mundial de motociclismo más prestigioso, con motos de 1,000cc de tecnología avanzada, donde los mejores pilotos del mundo compiten en circuitos internacionales.', link: '../pages/motogp.html' }
   ];
 
   const container = document.getElementById('card-container');

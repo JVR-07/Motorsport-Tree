@@ -1,6 +1,6 @@
 const categories = [
-    { name: 'Hypercar', image: '../public/hypercar.jpeg', description: 'Es la categoría principal del Campeonato Mundial de Resistencia (WEC), con prototipos de última generación, ya sean desarrollos propios (LMH) o basados en plataformas comunes (LMDh). Compiten marcas como Ferrari, Toyota, Porsche y Cadillac en carreras de hasta 24 horas.', link: '../pages/hypercar.html' },
-    { name: 'GT3', image: '../public/gt3.webp', description: 'Categoría basada en autos deportivos de calle modificados para competición. Adoptada por el WEC en 2024, reemplazó a los antiguos GTE. Reúne gran variedad de marcas como Aston Martin, Porsche, Ferrari y Lamborghini, equilibradas por un sistema de Balance of Performance.', link: '../pages/gt3.html' }
+    { name: 'Hypercar', image: '../imgs/hypercar.jpeg', description: 'Es la categoría principal del Campeonato Mundial de Resistencia (WEC), con prototipos de última generación, ya sean desarrollos propios (LMH) o basados en plataformas comunes (LMDh). Compiten marcas como Ferrari, Toyota, Porsche y Cadillac en carreras de hasta 24 horas.', link: '../pages/hypercar.html' },
+    { name: 'GT3', image: '../imgs/gt3.webp', description: 'Categoría basada en autos deportivos de calle modificados para competición. Adoptada por el WEC en 2024, reemplazó a los antiguos GTE. Reúne gran variedad de marcas como Aston Martin, Porsche, Ferrari y Lamborghini, equilibradas por un sistema de Balance of Performance.', link: '../pages/gt3.html' }
   ];
 
   const container = document.getElementById('card-container');
