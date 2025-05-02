@@ -16,35 +16,36 @@ En este caso, traté de juntar los archivos del mismo tipo dentro de una misma c
 
 ```
 .
-├── pages/                 #Esta carpeta agrupa todas las paginas html
-│   ├── baja1000.html      #Esta pagina crea la estructura para la pagina de informacion de la Baja 1000
-│   ├── f1.html            #Esta pagina crea la estructura para la pagina de informacion de la F1
-│   ├── grupob.html        #Esta pagina crea la estructura para la pagina de informacion del Grupo B
-│   ├── gt3.html           #Esta pagina crea la estructura para la pagina de informacion de la GT3 WEC
-│   ├── hypercar.html      #Esta pagina crea la estructura para la pagina de informacion de la HyperCar WEC
-│   ├── indycar.html       #Esta pagina crea la estructura para la pagina de informacion de la IndyCar
-│   ├── monoplaza.html     #Esta pagina muestra las tarjetas con las categorias dentro del tipo Monoplaza
-│   ├── moto.html          #Esta pagina muestra las tarjetas con las categorias dentro del tipo Moto
-│   ├── motogp.html        #Esta pagina crea la estructura para la pagina de informacion de MotoGP
-│   ├── nascar.html        #Esta pagina crea la estructura para la pagina de informacion de la Nascar Cup Series
-│   ├── rally.html         #Esta pagina muestra las tarjetas con las categorias dentro del tipo Rally
-│   ├── resistencia.html   #Esta pagina muestra las tarjetas con las categorias dentro del tipo Monoplaza
-│   ├── supercars.html     #Esta pagina crea la estructura para la pagina de informacion de la V8 Supercars
-│   ├── superformula.html  #Esta pagina crea la estructura para la pagina de informacion de la Super Formula Japonesa
-│   ├── turismo.html       #Esta pagina muestra las tarjetas con las categorias dentro del tipo Turismo
-│   └── wrc.html           #Esta pagina crea la estructura para la pagina de informacion del WRC
-├── public/                #Esta carpeta agrupa todas las imagenes utilizadas en todas las paginas
-│   └── ...
-├── source/                #Esta carpete agrupa todos los archivos del codigo de JavaScript
-│   ├── index.js           #Este codigo crea los JSON's para las tarjetas del index y agrega la informacion al DOM
-│   ├── monoplaza.js       #Este codigo crea los JSON's para las tarjetas de Monoplaza y agrega la informacion al DOM
-│   ├── moto.js            #Este codigo crea los JSON's para las tarjetas de Moto y agrega la informacion al DOM
-│   ├── rally.js           #Este codigo crea los JSON's para las tarjetas de Rally y agrega la informacion al DOM
-│   ├── resistencia.js     #Este codigo crea los JSON's para las tarjetas de Resistencia y agrega la informacion al DOM
-│   └── turismo.js         #Este codigo crea los JSON's para las tarjetas de Turismo y agrega la informacion al DOM
-├── styles/                #Esta carpeta agrupa todos los estilos de la página
-│   ├── index.css          #Esta hoja de estilos contiene formatos globales que se aplican a todas las paginas
-│   └── info.css           #Esta hoja de estilos contiene formatos que se aplican solamente a las paginas de informacion
-├── README.md              #Descipcion del proyecto
-└── index.html             #Raiz del proyecto
+├── public/
+│   ├── pages/
+│   │   ├── baja1000.html
+│   │   ├── f1.html
+│   │   ├── grupob.html
+│   │   ├── gt3.html
+│   │   ├── hypercar.html
+│   │   ├── indycar.html
+│   │   ├── monoplaza.html
+│   │   ├── moto.html
+│   │   ├── motogp.html
+│   │   ├── nascar.html
+│   │   ├── rally.html
+│   │   ├── resistencia.html
+│   │   ├── supercars.html
+│   │   ├── superformula.html
+│   │   ├── turismo.html
+│   │   └── wrc.html
+│   ├── imgs/
+│   │   └── ...
+│   ├── source/
+│   │   ├── index.js
+│   │   ├── monoplaza.js
+│   │   ├── moto.js
+│   │   ├── rally.js
+│   │   ├── resistencia.js
+│   │   └── turismo.js
+│   ├── styles/
+│   │   ├── index.css
+│   │   └── info.css
+│   └── index.html
+└── README.md
 ```
